@@ -3,7 +3,7 @@ A simple tasks manager written in ReactJS, all dressed up in a solarized dark th
 
 ## Installation
 1. Clone the repository
-2. 
+2. Install node modules and start the app
     ```bash
     cd solarizedtasks
     yarn install OR npm install
