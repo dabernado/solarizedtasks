@@ -1,0 +1,16 @@
+.completed {
+  text-decoration: line-through;
+  color: #b58900;
+  font-size: 2em;
+}
+
+.incompleted {
+  text-decoration: none;
+  color: #b58900;
+  font-size: 2em;
+}
+
+.task {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
