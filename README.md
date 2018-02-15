@@ -1,5 +1,5 @@
 ## Solarized Tasks
-A simple tasks manager written in ReactJS, all dressed up in a solarized dark theme
+A simple tasks manager written in ReactJS, all dressed up in a solarized dark theme. This source code is fully commented for easy understandability and modification, comments should be removed for production release in order to cut down on app size.
 
 ## Installation
 1. Clone the repository
