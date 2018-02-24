@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './item.css';
 import './solarized.css';
 
 class Item extends Component {
