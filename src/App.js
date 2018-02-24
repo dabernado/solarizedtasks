@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import TodoInput from './TodoInput.js';
 import Items from './Items.js';
-import './app.css'; // Basic styling, i.e., centering things and dictating text size
 import './solarized.css'; // Solarized-Dark colors
  
 class App extends Component {
