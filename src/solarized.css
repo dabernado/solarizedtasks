@@ -308,3 +308,22 @@ form {
   border-radius: 0.2em;
   background-color: #859900;
 }
+
+// CSS classes used in Item.js
+
+.completed {
+  text-decoration: line-through;
+  color: #b58900;
+  font-size: 2em;
+}
+
+.incompleted {
+  text-decoration: none;
+  color: #b58900;
+  font-size: 2em;
+}
+
+.task {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
