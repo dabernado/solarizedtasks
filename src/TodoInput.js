@@ -42,9 +42,7 @@ class TodoInput extends Component {
 	    	<form onSubmit={this.addItem}>
 	    		<input value={this.state.input} onChange={this.handleChange} placeholder="Enter Task" type={'text'}/>
 	    		<div onClick={this.handleSubmit}>Submit</div>
-
-          // If this.state.error is false, then show error message, else don't show anything
-          {this.state.error ? <div className={'todo'}>Please enter a task</div> : null}
+          		{this.state.error ? <div className={'todo'}>Please enter a task</div> : null}
 	    	</form>
 	    </div>
    </div>
@@ -52,4 +50,5 @@ class TodoInput extends Component {
   }
 }
 
-export default TodoInput;
+export default TodoInput;Sell This Pen to Me
+
