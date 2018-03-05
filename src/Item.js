@@ -13,7 +13,7 @@ class Item extends Component {
     this.setState({
       completed: !this.state.completed
     });
-    // If this.state.completed is false, set this.state.class to "incompleted", else set it to "completed"
+  // If this.state.completed is false, set this.state.class to "incompleted", else set it to "completed"
     this.state.completed ? this.setState({class: "incompleted"}) : this.setState({class: "completed"})
   }
 
@@ -28,7 +28,7 @@ class Item extends Component {
         <div className={this.state.class} onClick={this.handleClick} >
           {this.props.tasks}
         </div>
-        <div onClick={this.deleteTask}>
+        <div className={'delete'} onClick={this.deleteTask}>
           Delete
         </div>
       </div>

@@ -121,6 +121,16 @@ form {
   padding-bottom: 5px;
 }
 
+.delete {
+  width: 10%;
+}
+
+/* CSS classes used in TodoInput.js */
+
+.submit {
+  width: 10%;
+}
+
 /* CSS classes used in the parent component, App.js */
 
 .header {

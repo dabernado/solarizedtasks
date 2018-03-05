@@ -41,7 +41,7 @@ class TodoInput extends Component {
 	    <div>
 	    	<form onSubmit={this.addItem}>
 	    		<input value={this.state.input} onChange={this.handleChange} placeholder="Enter Task" type={'text'}/>
-	    		<div onClick={this.handleSubmit}>Submit</div>
+	    		<div className={'submit'} onClick={this.handleSubmit}>Submit</div>
           		{this.state.error ? <div className={'todo'}>Please enter a task</div> : null}
 	    	</form>
 	    </div>
@@ -50,5 +50,4 @@ class TodoInput extends Component {
   }
 }
 
-export default TodoInput;Sell This Pen to Me
-
+export default TodoInput;

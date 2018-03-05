@@ -13,6 +13,7 @@ class App extends Component {
     this.setState ({
       tasks: [...this.state.tasks, task]
     });
+  }
 
   // Deletes task from state
   deleteTask = (i) => {
