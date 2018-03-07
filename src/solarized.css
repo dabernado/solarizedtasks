@@ -102,6 +102,21 @@ form {
   padding-bottom: 40px;
 }
 
+.todo,
+.next,
+.done {
+  color: #002b36;
+  background-color: #dc322f;
+  padding: 0 0.2em;
+}
+
+.TODO {
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  border-radius: 0.2em;
+  background-color: #2aa198;
+}
+
 /* CSS classes used in Item.js */
 
 .completed {
@@ -121,14 +136,16 @@ form {
   padding-bottom: 5px;
 }
 
-.delete {
-  width: 10%;
+.taskName {
+  margin: auto;
+  width: 20%;
 }
 
-/* CSS classes used in TodoInput.js */
+/* CSS classes used for centering and shortening divs */
 
-.submit {
+.button {
   width: 10%;
+  margin: auto;
 }
 
 /* CSS classes used in the parent component, App.js */

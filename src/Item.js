@@ -28,7 +28,7 @@ class Item extends Component {
         <div className={this.state.class} onClick={this.handleClick} >
           {this.props.tasks}
         </div>
-        <div className={'delete'} onClick={this.deleteTask}>
+        <div className={'button'} onClick={this.deleteTask}>
           Delete
         </div>
       </div>
